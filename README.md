@@ -12,13 +12,15 @@ Responsive Design: Ensures a seamless experience across various devices and scre
 Intended Deployment
 The application is designed to be deployed on Digital Ocean's cloud platform. This choice provides scalability and reliability, ensuring that the application can handle varying loads with optimal performance.
 
-![Alt text](image.png)
+![image](https://github.com/Redda1242/QuietZone/assets/98473766/a94d6efa-e221-443b-ba5c-6c79c9217adb)
 
 
-![Alt text](image-1.png)
+
+![image](https://github.com/Redda1242/QuietZone/assets/98473766/e394432e-f4da-4062-bd43-8a798c4ee54c)
 
 
-![Alt text](image-2.png)
+![image](https://github.com/Redda1242/QuietZone/assets/98473766/7bc4b601-cfe0-4a10-9bee-d52d197ed023)
+
 
 
 Deployment Issue
