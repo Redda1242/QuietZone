@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Quiet Zone Locator{% endblock title %}
+
+{% block extra_css %}
+<style>
+    .hero {
+        background-color: #f8f9fa;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero p {
+        font-size: 1.2rem;
+    }
+</style>
+{% endblock extra_css %}
+
+{% block content %}
+    <div class="hero text-center">
+        <h1>Welcome to Quiet Zone Locator</h1>
+        <p>Discover peaceful and quiet places around you. Whether you need a tranquil spot for reading, studying, or just a moment of calm, Quiet Zone Locator helps you find the perfect location.</p>
+        <a href="{% url 'list_zones' %}" class="btn btn-primary btn-lg">Explore Quiet Zones</a>
+    </div>
+{% endblock content %}

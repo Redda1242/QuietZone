@@ -1,0 +1,3 @@
+POSTGIS_PORT = 5432
+DEPLOY_SECURE = False
+PROJECT_NAME = 'djangoProject4'

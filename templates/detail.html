@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+    .detail-container {
+        margin-top: 20px;
+    }
+
+    .detail-header {
+        background-color: #f7f7f7;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        margin-bottom: 20px;
+    }
+
+    .detail-header h1 {
+        margin-bottom: 0;
+    }
+
+    .detail-info {
+        margin-bottom: 15px;
+    }
+
+    #mapid {
+        height: 400px;
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .back-link {
+        display: inline-block;
+        margin-top: 20px;
+    }
+</style>
+
+<div class="detail-container">
+    <div class="detail-header">
+        <h1>{{ zone.name }}</h1>
+    </div>
+
+    <div class="detail-info">
+        <p><strong>Description:</strong> {{ zone.description }}</p>
+        <p><strong>Noise Level:</strong> {{ zone.noise_level }}</p>
+        <p><strong>Average Rating:</strong> {{ zone.average_rating }}</p>
+    </div>
+
+    <div id="mapid"></div> <!-- Map container -->
+
+    <a href="{% url 'list_zones' %}" class="btn btn-outline-secondary back-link">Back to list</a>
+</div>
+
+{% endblock content %}
+
+{% block extra_js %}
+<script>
+  var latitude = parseFloat("{{ latitude }}");
+  var longitude = parseFloat("{{ longitude }}");
+
+  var mymap = L.map('mapid').setView([latitude, longitude], 13);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(mymap);
+
+  L.marker([latitude, longitude]).addTo(mymap)
+    .bindPopup('{{ zone.name|escapejs }}').openPopup();
+</script>I
+{% endblock extra_js %}
+
+
+
