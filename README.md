@@ -7,7 +7,7 @@ The app includes features such as an interactive map, detailed information about
 
 Key Features
 Interactive Map: Displays quiet zones on an easily navigable map.
-Zone Details: Provides in-depth information about each quiet zone, including noise levels and amenities.
+Zone Details: Provides in-depth information about each quiet zone,  including noise levels and amenities.
 User Contributions: Users can submit new quiet zones, rate, and review existing ones.
 Responsive Design: Ensures a seamless experience across various devices and screen sizes.
 Intended Deployment
