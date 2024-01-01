@@ -24,7 +24,7 @@ The application is designed to be deployed on Digital Ocean's cloud platform. Th
 
 
 Deployment Issue
-During the deployment phase, we encountered an issue with Digital Ocean, specifically related to the configuration and setup process. As a result, the application is not currently hosted live on Digital Ocean.
+During the deployment phase, I encountered an issue with Digital Ocean. As a result, the application is not currently hosted live on Digital Ocean.
 
 Domain Setup
 The domain for the Quiet Zone Locator is managed using WordPress. This setup allows for easy content management and customization of the domain, ensuring that the web application can be effectively presented and accessed via a user-friendly URL.
