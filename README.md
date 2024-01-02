@@ -1,10 +1,13 @@
-Quiet Zone Locator
-Overview
+**Quiet Zone Locator**
+
+_**Overview**_
+
 Quiet Zone Locator is a Django-based web application designed to help users find and explore quiet zones in their vicinity or specific locations. This application is particularly useful for individuals seeking a peaceful environment for activities like studying, reading, or relaxing.
 
 The app includes features such as an interactive map, detailed information about each quiet zone, user ratings, and reviews.
 
-Key Features
+_**Key Features**_
+
 Interactive Map: Displays quiet zones on an easily navigable map.
 Zone Details: Provides in-depth information about each quiet zone, including noise levels and amenities.
 User Contributions: Users can submit new quiet zones, rate, and review existing ones.
@@ -15,7 +18,6 @@ The application is designed to be deployed on Digital Ocean's cloud platform. Th
 ![image](https://github.com/Redda1242/QuietZone/assets/98473766/a94d6efa-e221-443b-ba5c-6c79c9217adb)
 
 
-
 ![image](https://github.com/Redda1242/QuietZone/assets/98473766/e394432e-f4da-4062-bd43-8a798c4ee54c)
 
 
@@ -23,10 +25,12 @@ The application is designed to be deployed on Digital Ocean's cloud platform. Th
 
 
 
-Deployment Issue
+_**Deployment Issue**_
+
 During the deployment phase, I encountered an issue with Digital Ocean. As a result, the application is not currently hosted live on Digital Ocean.
 
-Domain Setup
+_**Domain Setup**__
+
 The domain for the Quiet Zone Locator is managed using WordPress. This setup allows for easy content management and customization of the domain, ensuring that the web application can be effectively presented and accessed via a user-friendly URL.
 
-http://quiet-zone.com/
+**http://quiet-zone.com/**
